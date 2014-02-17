@@ -11,7 +11,7 @@
 		<script src='js/jquery-1.11.0.min.js'></script>
 		<script src="js/node_modules/socket.io/node_modules/socket.io-client/dist/socket.io.js"></script>
 		<script>
-			var socket = io.connect('http://10.0.10.123:8080');
+			var socket = io.connect('http://localhost:8080');
 
 			$(function(){
 				$('#btn_enviar').click(function(){
